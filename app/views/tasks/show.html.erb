@@ -1,0 +1,17 @@
+<h3>
+  <%= @task.name %>
+</h3>
+<h3>
+  <%= @task.description %>
+</h3>
+<h3>
+  <%= @task.done %>
+</h3>
+
+</h3>
+  <%= link_to "edit", edit_task_path(@task) %>
+</h3>
+
+<h2>
+  <%= link_to "Create a new task", new_task_path %>
+</h2>
